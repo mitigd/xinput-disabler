@@ -1,0 +1,7 @@
+LIBRARY	"xinput9_1_0.dll"
+
+EXPORTS
+		XInputGetCapabilities=Detour_XInputGetCapabilities @1
+		XInputGetDSoundAudioDeviceGuids=Detour_XInputGetDSoundAudioDeviceGuids @2
+		XInputGetState=Detour_XInputGetState @3
+		XInputSetState=Detour_XInputSetState @4
