@@ -10,6 +10,7 @@ typedef DWORD(WINAPI* ORDINATE3)(DWORD dwUserIndex);
 typedef DWORD(WINAPI* XInputGS)(DWORD dwUserIndex, XINPUT_STATE* pState);
 typedef DWORD(WINAPI* XInputSS)(DWORD dwUserIndex, XINPUT_VIBRATION* pVibration);
 typedef DWORD(WINAPI* XInputGC)(DWORD dwUserIndex, DWORD dwFlags, XINPUT_CAPABILITIES* pCapabilities);
+typedef VOID(WINAPI* XInputEN)(BOOL enable);
 typedef DWORD(WINAPI* XInputGG)(DWORD dwUserIndex, GUID* pDSoundRenderGuid, GUID* pDSoundCaptureGuid);
 typedef DWORD(WINAPI* XInputGB)(DWORD  dwUserIndex, BYTE devType, XINPUT_BATTERY_INFORMATION* pBatteryInformation);
 typedef DWORD(WINAPI* XInputGK)(DWORD dwUserIndex, DWORD dwReserved, PXINPUT_KEYSTROKE pKeystroke);
